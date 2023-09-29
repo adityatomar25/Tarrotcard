@@ -9,7 +9,23 @@ tarot_deck = {
     "The High Priestess": "Intuition, unconscious knowledge, mystery",
     "The Empress": "Fertility, nurturing, abundance",
     "The Emperor": "Authority, leadership, control",
-    
+    "The Hierophant": "Spiritual guidance, tradition, conformity",
+    "The Lovers": "Love, partnership, choices",
+    "The Chariot": "Determination, willpower, victory",
+    "Strength": "Courage, inner strength, compassion",
+    "The Hermit": "Soul searching, introspection, solitude",
+    "Wheel of Fortune": "Luck, cycles, destiny",
+    "Justice": "Fairness, balance, truth",
+    "The Hanged Man": "Letting go, surrender, new perspective",
+    "Death": "Endings, transformation, rebirth",
+    "Temperance": "Balance, moderation, harmony",
+    "The Devil": "Materialism, bondage, temptation",
+    "The Tower": "Sudden upheaval, chaos, revelation",
+    "The Star": "Hope, inspiration, spiritual guidance",
+    "The Moon": "Illusion, intuition, subconscious",
+    "The Sun": "Joy, success, vitality",
+    "Judgment": "Renewal, rebirth, accountability",
+    "The World": "Completion, fulfillment, wholeness",
 }
 
 # Create an empty list to store card history
