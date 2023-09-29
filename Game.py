@@ -49,7 +49,6 @@ def show_card_history():
     # Display the card history in a separate window
     history_text = "\n\n".join(card_history)
     messagebox.showinfo("Card History", history_text)
-
 # Create the main GUI window
 root = tk.Tk()
 root.title("Tarot Card Reader")
