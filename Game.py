@@ -1,4 +1,6 @@
-
+import random
+import tkinter as tk
+from tkinter import messagebox
 
 # Tarot card deck with meanings
 tarot_deck = {
