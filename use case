@@ -1,0 +1,40 @@
+
+
+**Use Case: Personal Tarot Card Reading**
+
+**Actor**: User
+
+**Description**:
+- **Preconditions**: The user has installed and launched the Tarot card reader application.
+
+**Basic Flow**:
+1. The user opens the Tarot card reader application.
+2. The main window of the application appears with a label, "Click 'Draw Card' to draw a Tarot card."
+3. The user sees three buttons: "Draw Card," "Card History," and "Quit."
+4. The user decides to perform a Tarot card reading and clicks the "Draw Card" button.
+
+   - The application randomly selects a Tarot card from the deck.
+   - The selected card and its meaning are displayed in a message box, e.g., "You drew: The Magician\nMeaning: Manifestation, resourcefulness, power."
+   - The card and its meaning are added to the card history.
+
+5. The user repeats step 4 a few times to draw more cards and explore their meanings.
+
+**Alternative Flow - View Card History**:
+- Instead of drawing more cards, the user clicks the "Card History" button.
+- A message box displays the history of previously drawn cards, including their names and meanings.
+
+**Alternative Flow - Quit Application**:
+- At any point, the user can click the "Quit" button to exit the Tarot card reader application.
+
+**Postconditions**:
+- The user has performed Tarot card readings and explored the meanings of multiple cards.
+- The user can close the application when done.
+
+**Exceptional Flow - Card Meaning Not Found**:
+- In the rare case that the application encounters a card name that is not in the Tarot card deck, it displays "Meaning not found" in the message box.
+
+**Notes**:
+- This use case demonstrates a simple and user-friendly way for individuals interested in Tarot cards to perform readings and explore card meanings.
+- The card history feature allows users to review their past readings and interpretations.
+- The "Quit" button ensures that users can exit the application when they are finished.
+- This application is intended for entertainment and personal exploration purposes and does not provide real divination or guidance.
