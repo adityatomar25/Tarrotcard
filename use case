@@ -7,34 +7,51 @@
 **Description**:
 - **Preconditions**: The user has installed and launched the Tarot card reader application.
 
-**Basic Flow**:
-1. The user opens the Tarot card reader application.
-2. The main window of the application appears with a label, "Click 'Draw Card' to draw a Tarot card."
-3. The user sees three buttons: "Draw Card," "Card History," and "Quit."
-4. The user decides to perform a Tarot card reading and clicks the "Draw Card" button.
+**User Profile:**
+- The user is interested in tarot card readings and wants a simple digital tool to draw tarot cards and learn their meanings.
+- The user enjoys exploring and reflecting on the symbolism and messages of tarot cards.
+- The user wants to keep a record of the cards they have drawn for future reference.
 
-   - The application randomly selects a Tarot card from the deck.
-   - The selected card and its meaning are displayed in a message box, e.g., "You drew: The Magician\nMeaning: Manifestation, resourcefulness, power."
-   - The card and its meaning are added to the card history.
+**Use Case Scenario:**
 
-5. The user repeats step 4 a few times to draw more cards and explore their meanings.
+1. **User Launches the Application:**
+   - The user launches the tarot card reading application.
 
-**Alternative Flow - View Card History**:
-- Instead of drawing more cards, the user clicks the "Card History" button.
-- A message box displays the history of previously drawn cards, including their names and meanings.
+2. **Main GUI Window:**
+   - The main GUI window appears, titled "Tarot Card Reader."
+   - A label instructs the user: "Click 'Draw Card' to draw a Tarot card."
 
-**Alternative Flow - Quit Application**:
-- At any point, the user can click the "Quit" button to exit the Tarot card reader application.
+3. **Drawing a Tarot Card:**
+   - The user clicks the "Draw Card" button.
 
-**Postconditions**:
-- The user has performed Tarot card readings and explored the meanings of multiple cards.
-- The user can close the application when done.
+4. **Card Drawn and Meaning Displayed:**
+   - The application randomly selects a tarot card from the deck.
+   - The application displays a messagebox with the drawn card's name and its associated meaning from the tarot_deck dictionary.
+   - The user reads and reflects on the meaning of the drawn card, gaining insight into their current situation or question.
 
-**Exceptional Flow - Card Meaning Not Found**:
-- In the rare case that the application encounters a card name that is not in the Tarot card deck, it displays "Meaning not found" in the message box.
+5. **Card History Logging:**
+   - The application appends the drawn card and its meaning to the card_history list.
+   - The user's card drawing history is recorded for future reference.
 
-**Notes**:
-- This use case demonstrates a simple and user-friendly way for individuals interested in Tarot cards to perform readings and explore card meanings.
-- The card history feature allows users to review their past readings and interpretations.
-- The "Quit" button ensures that users can exit the application when they are finished.
-- This application is intended for entertainment and personal exploration purposes and does not provide real divination or guidance.
+6. **Viewing Card History:**
+   - The user clicks the "Card History" button.
+   - The application displays a separate messagebox with the user's card drawing history.
+   - The user can review past card readings to see patterns or track their journey over time.
+
+7. **Quitting the Application:**
+   - The user clicks the "Quit" button when they are done using the application.
+   - The application exits gracefully.
+
+**Benefits of the Use Case:**
+- Provides an easy-to-use digital tool for tarot card enthusiasts to draw cards and access meanings.
+- Enables users to keep a record of their tarot card readings for personal growth and reflection.
+- Offers an interactive and engaging way to explore the symbolism and messages of tarot cards.
+- Encourages users to use tarot cards as a tool for self-discovery and introspection.
+- Allows users to access their card history to analyze patterns and track their journey.
+
+**Additional Features (Potential Enhancements):**
+- Option to save card history to a file for long-term record keeping.
+- Integration with a tarot card image library to display card images along with meanings.
+- Customizable card spreads and interpretations for more in-depth readings.
+- User authentication to secure and personalize card history records.
+- Integration with social media or sharing options to discuss readings with others. real divination or guidance.
