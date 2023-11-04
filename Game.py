@@ -2,7 +2,7 @@ import random
 import tkinter as tk
 from tkinter import messagebox
 
-# Tarot card deck with meanings
+#tarot card deck with meanings
 tarot_deck = {
     "The Fool": "Beginnings, spontaneity, leap of faith",
     "The Magician": "Manifestation, resourcefulness, power",
